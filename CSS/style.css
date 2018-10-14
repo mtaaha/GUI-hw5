@@ -1,0 +1,79 @@
+/*
+   Name: Mohammad Taaha
+   91.61 Assignment:4
+   Mohammad Taaha, UMass Lowell Computer Science Student,mohammad_taaha@student.uml.edu
+   Copyright (c) 2018 by Mohammad Taaha.  All rights reserved.  May be
+   freely copied or excerpted for educational purposes with credit to the
+   author.
+   Created on 10/09/2018
+   Description:This Webpage gives an introduction of who I am. It is written in html and for
+   styling I have used CSS. This is a makeover of assignemnt 2 with style using CSS.
+   -->
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+
+  min-width: 600px;
+	background-image: url("blue.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  background-size:cover;
+  margin-left: 15%;/*page takes up 85% of the page*/
+  margin-right:15%;
+}
+
+h1 {
+	font-size:20px;
+  color:white;
+  background-color:black;
+  padding:15px
+}
+
+h2{
+  color:white;
+  text-shadow:2px 2px 5px blue;
+  font-size:50px;
+}
+
+#content{
+
+  padding-left:50px;
+  font-size:20px;
+  color:white;/*content color is white*/
+}
+.column{/*used it to make sure background color hiehgt is same on all columns*/
+  padding:0px;
+  width:50%;
+  float:left;
+}
+
+.col-container {
+    margin-top:-20px;
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}
+#bio{
+  margin-top:150px;
+  -ms-transform: rotate(250deg); /* IE 9 */
+  -webkit-transform: rotate(250deg); /* Safari 3-8 */
+  transform: rotate(250deg);
+}
+
+a:link {
+  text-decoration: none;
+    color: white;
+}
+
+a:visited { /*changes color of visited links*/
+    color: red;
+}
+
+a:hover {/*changes color of links with mouse hovering over them*/
+    color: green;
+}
